@@ -1,0 +1,43 @@
+/* Reset + design tokens */
+:root {
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --text: #1e2433;
+  --muted: #667085;
+  --border: #e4e7ee;
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --primary-soft: #eef2ff;
+  --success: #16a34a;
+  --success-soft: #dcfce7;
+  --danger: #dc2626;
+  --danger-soft: #fee2e2;
+  --radius: 14px;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow: 0 10px 30px -12px rgba(30, 36, 80, 0.18);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text);
+  background:
+    radial-gradient(1000px 500px at 85% -10%, #e0e7ff 0%, transparent 60%),
+    radial-gradient(800px 400px at -10% 10%, #fce7f3 0%, transparent 55%),
+    var(--bg);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
