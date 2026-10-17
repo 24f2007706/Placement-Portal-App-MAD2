@@ -29,9 +29,9 @@ A full-stack Placement Portal designed to streamline campus recruitment and plac
 
 ## 🛠️ Tech Stack
 
-* **Backend:** Flask, Python
+* **Backend:** Flask, Python, JWT
 * **Database:** SQLite
-* **Frontend:** HTML, CSS, JavaScript
+* **Frontend:** HTML, CSS, JavaScript, VueJs
 * **Templating Engine:** Jinja2
 * **ORM:** SQLAlchemy
 
